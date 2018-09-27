@@ -1,7 +1,9 @@
 import React from 'react'
-import './ButtonSave-css/ButtonSave.css'
+import './SaveButtom-css/saveButtom.css'
 
-function ButtonSave() {
+
+
+function SaveButtom() {
   return (
     <div className="button col-lg-6 float-right d-flex justify-content-end">
       <button className="btn btn-primary">SAVE E-MAIL</button>
@@ -9,4 +11,4 @@ function ButtonSave() {
   )
 }
 
-export default ButtonSave
+export default SaveButtom
