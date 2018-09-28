@@ -1,15 +1,16 @@
 import React from 'react'
-import './Header-css/header.css'
 import Logo from './Logo/Logo'
-import SaveButtom from './SaveButtom/SaveButton'
+import SaveButton from './SaveButton/SaveButton'
+import './HeaderStyle/Header.css'
+
 function Header() {
   return (
-    <div className='container-fluid header  '>
-      <header>
+    <header className="container-fluid">
+      <div>
         <Logo />
-        <SaveButtom />
-      </header>
-    </div>
+        <SaveButton />
+      </div>
+    </header>
   )
 }
 

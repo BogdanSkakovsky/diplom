@@ -1,5 +1,5 @@
-.header{
+header{
+  height: 130px;
   background: #000;
-  height: 75px;
   box-shadow: 0 2px 3px rgba(0,0,0,.3);
 }

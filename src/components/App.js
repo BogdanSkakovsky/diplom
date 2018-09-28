@@ -1,15 +1,15 @@
 import React from 'react'
-import Header from './header/Header'
-import ContentBlock from './ContentBlock/ContentBlock'
-import TabsBlock from './TabsBlock/TabsBlock'
+import Header from './Header/Header'
+import Content from './Content/Content'
+import Tabs from './Tabs/Tabs'
 import'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
     <div>
       <Header />
-      <ContentBlock />
-      <TabsBlock />
+      <Content />
+      <Tabs />
     </div>
   )
 
